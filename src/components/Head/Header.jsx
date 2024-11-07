@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiUser, FiShoppingCart, FiHeart, FiSearch } from "react-icons/fi";
-import "./HeadStyle.css"; // Header.css를 import
+import "./HeadStyle.css";
 
 const categories = {
   new: ["가죽자켓", "코트", "경량패팅", "단독", "인플루언서 PICK"],
