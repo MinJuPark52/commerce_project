@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./HeadStyle.css";
 
 const JoinPage = () => {
   const [loginState, setLoginState] = useState({
@@ -38,10 +39,12 @@ const JoinPage = () => {
   };
 
   return (
-    <div>
+    <div className="join-container">
       <form onSubmit={loginSubmit}>
+        <h1>Sign Up</h1>
         <div>
           <input
+            className="input-field"
             placeholder="아이디"
             type="text"
             value={loginState.id}
@@ -50,6 +53,7 @@ const JoinPage = () => {
         </div>
         <div>
           <input
+            className="input-field"
             placeholder="비밀번호"
             type="password"
             value={loginState.password}
@@ -58,6 +62,7 @@ const JoinPage = () => {
         </div>
         <div>
           <input
+            className="input-field"
             placeholder="비밀번호 재확인"
             type="password"
             value={loginState.passwordAgain}
@@ -66,14 +71,19 @@ const JoinPage = () => {
         </div>
         <div>
           <input
+            className="input-field"
             placeholder="닉네임"
             type="text"
             value={loginState.nickname}
             onChange={(e) => setError("nickname", e.target.value)}
           />
         </div>
-        {loginState.error && <p style={{ color: "red" }}>{loginState.error}</p>}
-        <button type="submit">회원가입</button>
+        {loginState.error && (
+          <p className="error-message">{loginState.error}</p>
+        )}
+        <button className="submit-btn" type="submit">
+          회원가입
+        </button>
       </form>
     </div>
   );

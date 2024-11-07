@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./HeadStyle.css"; // CSS 파일을 import!
 
 const LoginPage = () => {
   const [id, setId] = useState("");
@@ -24,10 +25,12 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={loginSubmit}>
-        <div>
+    <div className="login-container">
+      <form className="login-form" onSubmit={loginSubmit}>
+        <h2>Login</h2>
+        <div className="form-group">
           <input
+            className="input-field"
             placeholder="아이디"
             type="text"
             id="id"
@@ -35,8 +38,9 @@ const LoginPage = () => {
             onChange={(e) => setId(e.target.value)}
           />
         </div>
-        <div>
+        <div className="form-group">
           <input
+            className="input-field"
             placeholder="비밀번호"
             type="password"
             id="password"
@@ -44,12 +48,14 @@ const LoginPage = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        {error && <p style={{ color: "red" }}>{error}</p>}
-        <button type="submit">로그인</button>
+        {error && <p className="error-message">{error}</p>}
+        <button className="submit-btn" type="submit">
+          로그인
+        </button>
+        <div className="signup-link">
+          <Link to="/join">회원가입</Link>
+        </div>
       </form>
-      <div>
-        <Link to="/join">회원가입</Link>
-      </div>
     </div>
   );
 };
