@@ -3,9 +3,9 @@
     "id": 1,
     "title": "도프샵",
     "price": 38.9,
-    "description": "오버핏 스노우 흑청 자켓",
+    "description": "캐주얼 오버핏 흑청 자켓",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    "image": "https://i.ibb.co/5MNBhJL/image.jpg"
   },
   {
     "id": 2,
@@ -13,15 +13,15 @@
     "price": 15.99,
     "description": "소가죽 메리제인 플랫슈즈",
     "category": "shoes",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+    "image": "https://i.ibb.co/0Cv68zy/image.jpg"
   },
   {
     "id": 3,
     "title": "뉴얼",
     "price": 67.15,
-    "description": "클레어 몰드 스트랩샌들",
+    "description": "클레어 몰드 스트랩 샌들",
     "category": "shoes",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    "image": "https://i.ibb.co/mqR5cRm/image.jpg"
   },
   {
     "id": 4,
@@ -29,142 +29,79 @@
     "price": 32.32,
     "description": "베이직 스틸레토힐",
     "category": "shoes",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    "image": "https://i.ibb.co/HGRB3Fy/image.jpg"
   },
   {
     "id": 5,
-    "title": "앤드모어",
-    "price": 13.3,
-    "description": "클래식 와이드 데님팬츠",
+    "title": "블루프렌치",
+    "price": 168,
+    "description": "핀덕 스트레이트 일자 팬츠",
     "category": "pants",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://i.ibb.co/JqWk4t1/image.jpg"
   },
   {
     "id": 6,
-    "title": "블루프렌치",
-    "price": 168,
-    "description": "핀덕 스트레이트 일자 슬랙스",
-    "category": "pants",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
-  },
-  {
-    "id": 7,
-    "title": "잇츠",
-    "price": 17.95,
-    "description": "스트링 조거팬츠",
-    "category": "pants",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
-  },
-  {
-    "id": 8,
     "title": "세인트",
     "price": 40.9,
     "description": "멀티 포켓 캐주얼 크로스백",
     "category": "pants",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://i.ibb.co/tJstphB/image.jpg"
   },
+
   {
-    "id": 9,
-    "title": "룩온",
-    "price": 51,
-    "description": "액티브 캐리 백팩",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
-  },
-  {
-    "id": 10,
+    "id": 7,
     "title": "톤오브",
     "price": 109,
     "description": "미니 토트 크로스백",
     "category": "bag",
-    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+    "image": "https://i.ibb.co/yf5XV0b/image.jpg"
   },
   {
-    "id": 11,
+    "id": 8,
     "title": "리해르",
     "price": 78.3,
     "description": "데일리 포켓 백팩",
     "category": "bag",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+    "image": "https://i.ibb.co/NmKsJms/image.jpg"
   },
   {
-    "id": 12,
+    "id": 9,
     "title": "로즈도리",
     "price": 11.4,
     "description": "캐시미어 울 라운드 니트",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+    "image": "https://i.ibb.co/wJSBWnM/image.jpg"
   },
   {
-    "id": 13,
+    "id": 10,
     "title": "머룬",
     "price": 51.89,
     "description": "어바웃 벨트 숄더백",
     "category": "bag",
-    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+    "image": "https://i.ibb.co/pRzryxL/image.jpg"
   },
   {
-    "id": 14,
+    "id": 11,
     "title": "립온",
     "price": 41.5,
     "description": "뉴 보부상 숄더백",
     "category": "bag",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+    "image": "https://i.ibb.co/rygQwRx/image.jpg"
   },
   {
-    "id": 15,
-    "title": "바이온",
-    "price": 56.59,
-    "description": "피드 헤어 브이넥 가디건",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
-  },
-  {
-    "id": 16,
-    "title": "폴리오",
-    "price": 29.95,
-    "description": "시크 레더 가죽 자켓",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
-  },
-  {
-    "id": 17,
-    "title": "브라운레이",
-    "price": 39.79,
-    "description": "오프 숄더, 어깨 트임 라운드 니트",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
-  },
-  {
-    "id": 18,
-    "title": "푸롯",
-    "price": 27.85,
-    "description": "[MADE] 그레이 롱 코트",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
-  },
-  {
-    "id": 19,
+    "id": 12,
     "title": "그레이프",
     "price": 32.39,
     "description": "프리미엄 숏 패딩 점퍼",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+    "image": "https://i.ibb.co/Y2h5cTZ/image.jpg"
   },
   {
-    "id": 20,
-    "title": "사인엔유",
-    "price": 26.56,
-    "description": "베이직 스퀘어넥 니트",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
-  },
-  {
-    "id": 21,
+    "id": 13,
     "title": "에스트리",
     "price": 36.26,
     "description": "베이직 라운드 가디건",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+    "image": "https://i.ibb.co/kmVw0KJ/image.jpg"
   }
 ]
