@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./HeadStyle.css";
+import KakaoLogin from "./KakaoLogin";
 
 const LoginPage = () => {
   const [id, setId] = useState("");
@@ -59,6 +60,9 @@ const LoginPage = () => {
         </button>
         <div className="signup-link">
           <Link to="/join">회원가입</Link>
+        </div>
+        <div className="kakao-login">
+          <KakaoLogin />
         </div>
       </form>
     </div>
