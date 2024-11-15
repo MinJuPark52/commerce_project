@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiUser, FiShoppingCart, FiHeart, FiSearch } from "react-icons/fi";
-import "./HeadStyle.css"; // Header.css를 import
+import "./HeadStyle.css";
 
 const keywords = [
   "캐주얼 오버핏 흑청 자켓",
@@ -18,7 +18,6 @@ const keywords = [
   "프리미엄 숏 패딩 점퍼",
   "베이직 라운드 가디건",
 ];
-// keywords로 이름 변경
 
 const categories = {
   new: ["가죽자켓", "코트", "경량패팅", "단독", "인플루언서 PICK"],
@@ -28,9 +27,9 @@ const categories = {
 
 const Header = () => {
   const navigate = useNavigate();
-  const [searchTerm, setSearchTerm] = useState(""); // 검색어 상태
-  const [filteredKeywords, setFilteredKeywords] = useState([]); // 자동완성된 키워드 상태
-  const [isOpen, setOpen] = useState(null); // 카테고리 메뉴 열림 상태
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredKeywords, setFilteredKeywords] = useState([]);
+  const [isOpen, setOpen] = useState(null);
 
   // 카테고리 메뉴 토글
   const toggleMenu = (menu) => {
@@ -40,7 +39,7 @@ const Header = () => {
   // 검색어 변경 시 자동완성 필터링
   const handleSearchChange = (event) => {
     const term = event.target.value;
-    setSearchTerm(term); // 검색어 상태 업데이트
+    setSearchTerm(term);
 
     // 검색어가 있을 경우 키워드 목록 필터링
     if (term) {
@@ -55,9 +54,9 @@ const Header = () => {
 
   // 자동완성 항목을 선택했을 때
   const handleSearchSelect = (selectedKeyword) => {
-    setSearchTerm(selectedKeyword); // 선택한 키워드로 검색어 업데이트
-    setFilteredKeywords([]); // 자동완성 리스트 숨기기
-    navigate(`/search?query=${selectedKeyword}`); // 검색 페이지로 이동
+    setSearchTerm(selectedKeyword);
+    setFilteredKeywords([]);
+    navigate(`/search?query=${selectedKeyword}`);
   };
 
   return (
@@ -68,8 +67,8 @@ const Header = () => {
             type="text"
             className="search-bar"
             placeholder="검색어를 입력해주세요"
-            value={searchTerm} // 검색어 상태를 입력 필드에 연결
-            onChange={handleSearchChange} // 검색어 입력 시 필터링
+            value={searchTerm}
+            onChange={handleSearchChange}
           />
           <FiSearch className="search-icon" />
         </div>
@@ -81,7 +80,7 @@ const Header = () => {
               <li
                 key={index}
                 className="suggestion-item"
-                onClick={() => handleSearchSelect(keyword)} // 클릭 시 해당 키워드로 검색
+                onClick={() => handleSearchSelect(keyword)}
               >
                 {keyword}
               </li>

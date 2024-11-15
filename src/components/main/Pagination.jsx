@@ -3,8 +3,8 @@ import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
 const PaginationComponent = ({
-  totalItems = 0, // 기본값 0 설정
-  itemsPerPage = 9, // 기본값 9 설정
+  totalItems = 0,
+  itemsPerPage = 9,
   currentPage,
   onPageChange,
 }) => {
@@ -24,7 +24,7 @@ const PaginationComponent = ({
         <Pagination
           count={totalPages}
           page={currentPage}
-          onChange={onPageChange} // 페이지 변경 시 호출되는 함수
+          onChange={onPageChange}
         />
       </Stack>
     )
