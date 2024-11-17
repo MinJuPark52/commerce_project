@@ -4,7 +4,7 @@ import Header from "./components/Head/Header";
 import LoginPage from "./components/Head/LoginPage";
 import Home from "./components/main/Home";
 import Footer from "./components/Footer/Foo";
-import JoinPage from "./components/Head/JoinPage"; // JoinPage 컴포넌트 추가
+import JoinPage from "./components/Head/joinPage";
 import Pagination from "./components/main/Pagination";
 import KakaoLogin from "./components/Head/KakaoLogin";
 
